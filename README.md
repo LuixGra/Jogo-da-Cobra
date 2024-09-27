@@ -9,8 +9,6 @@ Criado por: Luiz Nascimento Graceli e Carlos Almeida Garcia.
 Esse é um jogo simples em modo snake no qual o objetivo é que a cobra se alimente e crescça o máximo possivel.
 Foi  usado códigos básicos desenvolvidos no python (usando pygame), jogo usado para entretenimento e passatempos
 
-Snake Game
-Este é o projeto do Snake Game, desenvolvido por [Seu Nome] e [Nome do Amigo]. O jogo foi construído usando a biblioteca Pygame, e a cobra pode ser controlada para comer comida e crescer.
 
 Versões
 Versão 1.0
