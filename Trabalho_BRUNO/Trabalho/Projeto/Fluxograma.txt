@@ -1,0 +1,66 @@
+            +--------------------------------------+
+            |         INÍCIO DO JOGO               |
+            +--------------------------------------+
+                          |
+                          v
+            +--------------------------------------+
+            | Inicializa parâmetros do jogo:       |
+            | - Campo (tamanho, bordas)            |
+            | - Cobra (posição inicial, tamanho)   |
+            | - Comida (gerada aleatoriamente)     |
+            | - Pontuação (iniciada em 0)          |
+            +--------------------------------------+
+                          |
+                          v
+            +--------------------------------------+
+            | Verifica eventos do teclado:         |
+            | - Movimenta a cobra                  |
+            | - Direção baseada na entrada (tecla) |
+            +--------------------------------------+
+                          |
+                          v
+            +--------------------------------------+
+            | Atualiza posição da cobra            |
+            | - Muda a posição da cabeça           |
+            | - Move corpo para a nova posição     |
+            +--------------------------------------+
+                          |
+                          v
+            +--------------------------------------+
+            | A cobra colidiu com:                 |
+            | - Paredes? (fim do jogo)             |
+            | - Próprio corpo? (fim do jogo)       |
+            +--------------------------------------+
+                |                |
+                | SIM             | NÃO
+                v                 |
+        +------------------+      v
+        |  GAME OVER        |  +----------------------------------+
+        +------------------+  | A cobra comeu a comida?           |
+                              | - Sim? Cresce e aumenta pontuação |
+                              | - Não? Continua o movimento       |
+                              +----------------------------------+
+                                            |
+                                            v
+                                +----------------------------+
+                                | Gerar nova comida           |
+                                | Aumentar velocidade (opcional) |
+                                +----------------------------+
+                                            |
+                                            v
+                                +-----------------------------+
+                                | Atualiza tela (desenha nova  |
+                                | posição da cobra e comida)   |
+                                +-----------------------------+
+                                            |
+                                            v
+                                +-----------------------------+
+                                | Fim do loop? (fim do jogo ou |
+                                | continua jogando)            |
+                                +-----------------------------+
+                                            |
+                                            v
+                                +-----------------------------+
+                                | REPETE LOOP                  |
+                                +-----------------------------+
+
