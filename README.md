@@ -1,4 +1,6 @@
-
+# Depêndencias
+- Pygame
+- Python
 
 # Snake Game
 
@@ -28,11 +30,11 @@ Na segunda versão, foi adicionada a detecção de colisão com as paredes, resu
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/snake-game.git
+   git clone https://github.com/LuixGra/Jogo-da-Cobra.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd snake-game
+   cd SNAKE_GAME
    ```
 3. Certifique-se de ter a biblioteca Pygame instalada:
    ```bash
